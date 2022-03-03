@@ -1,0 +1,151 @@
+body
+{
+	background-image: url("2.jpg");
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0% 85%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 200px;
+    height: 66px;
+	margin-left: 70px;
+	margin-top : 20px;
+}
+
+#nav
+{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+nav a
+{
+    font-size: 1.35em;
+    color: white;
+	text-shadow: 2px 1px 2px black;
+    padding-bottom: 3px;
+    text-decoration: none;
+	margin-right: 70px;
+}
+
+nav a:hover
+{
+    border-bottom: 1px solid;
+}
+
+article
+{
+	font-size: 1.04em;
+	color: black;
+	text-align: CENTER;
+	text-align-last : center;
+	background-color: #f8f8f8;
+	opacity: 0.85;
+	padding: 0em 1.5em;
+	margin: auto;
+	width: 28%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-animation: fadein 1.10s;
+    -moz-animation: fadein 1.10s; 
+    -ms-animation: fadein 1.10s; 
+    -o-animation: fadein 1.10s; 
+    animation: fadein 1.10s;
+}
+
+@keyframes fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 0.85; }
+}
+
+@-moz-keyframes fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 0.85; }
+}
+
+@-webkit-keyframes fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 0.85; }
+}
+
+@-ms-keyframes fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 0.85; }
+}
+
+@-o-keyframes fadein
+{
+    from { opacity: 0; }
+    to   { opacity: 0.85; }
+}
+
+.second
+{
+	font-size: 0.8em;
+}
+
+.quote
+{
+	font-size: 0.90em;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+	position: fixed;
+	width: 100%;
+	bottom: 1%;
+	left: 0%;
+	opacity: 0.8;
+}
+
+.copyright
+{
+	font-size: 0.80em;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+	position: fixed;
+	width: 62%;
+	bottom: -1%;
+	left: 19%;
+	opacity: 0.8;
+}
+
+#rs
+{  	display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	right: 0.5%;
+}
+
+footer img
+{
+	width: 32px;
+    height: 32px;
+}
