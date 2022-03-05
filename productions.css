@@ -7,7 +7,7 @@ body
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 0% 85%;
+	background-position: 0% 90%;
 }
 
 header
@@ -51,15 +51,19 @@ nav a
 
 nav a:hover
 {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 
 .first
 {
+	font-size: 0.80em;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+	position: fixed;
 	margin: auto;
-	position: absolute;
-	top: 20%;
-	left: 50%;
+	top: 70%;
+	left: 48.5%;
 	transform: translate(-50%, -50%);
 	display: flex;
 	justify-content: space-between;
@@ -172,6 +176,11 @@ article img
   height: auto;
 }
 
+.container:hover 
+{
+    cursor: pointer;
+}
+
 .overlay
 {
   position: absolute;
@@ -203,6 +212,11 @@ article img
 	position: fixed;
 	bottom: 0;
 	right: 0.5%;
+}
+
+#Instagram
+{
+	padding-right: 5px;
 }
 
 .quote

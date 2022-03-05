@@ -6,7 +6,7 @@ body
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 0% 85%;
+	background-position: 0% 90%;
 }
 
 header
@@ -50,12 +50,12 @@ nav a
 
 article
 {
-	font-size: 1.04em;
+	font-size: 1.08em;
 	color: black;
 	text-align: justify;
 	text-align-last : center;
 	background-color: #f8f8f8;
-	opacity: 0.85;
+	opacity: 0.80;
 	padding: 0em 1.5em;
 	margin: auto;
 	width: 28%;
@@ -73,36 +73,36 @@ article
 @keyframes fadein
 {
     from { opacity: 0; }
-    to   { opacity: 0.85; }
+    to   { opacity: 0.80; }
 }
 
 @-moz-keyframes fadein
 {
     from { opacity: 0; }
-    to   { opacity: 0.85; }
+    to   { opacity: 0.80; }
 }
 
 @-webkit-keyframes fadein
 {
     from { opacity: 0; }
-    to   { opacity: 0.85; }
+    to   { opacity: 0.80; }
 }
 
 @-ms-keyframes fadein
 {
     from { opacity: 0; }
-    to   { opacity: 0.85; }
+    to   { opacity: 0.80; }
 }
 
 @-o-keyframes fadein
 {
     from { opacity: 0; }
-    to   { opacity: 0.85; }
+    to   { opacity: 0.80; }
 }
 
 nav a:hover
 {
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
 }
 
 .quote
@@ -137,6 +137,11 @@ nav a:hover
 	position: fixed;
 	bottom: 0;
 	right: 0.5%;
+}
+
+#Instagram
+{
+	padding-right: 5px;
 }
 
 footer img
