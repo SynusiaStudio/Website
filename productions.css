@@ -224,7 +224,7 @@ footer img
     height: 32px;
 }
 @media (max-width: 768px) {
-    #footer {
+    #quote {
         display: none;
     }
 }

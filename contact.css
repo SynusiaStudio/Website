@@ -55,7 +55,6 @@ article
 	background-color: #f8f8f8;
 	opacity: 0.80;
 	padding: 0em 1.5em;
-	margin: auto;
 	width: 28%;
 	position: absolute;
 	top: 50%;
@@ -137,7 +136,20 @@ footer img
     height: 32px;
 }
 @media (max-width: 768px) {
-    #footer {
+    .quote {
         display: none;
-    }
+	}
+	.body {
+		background-position: 0%, 100%;
+	}
+	.background-image {
+		justify-content: center;
+	}
+	.header {
+		justify-content: space-evenly;
+	}
+	.article {
+		width: 80%;
+		height: 64%;
+	}
 }
