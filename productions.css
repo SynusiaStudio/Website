@@ -211,7 +211,7 @@ article img
 {  	display: flex;
 	justify-content: center;
 	position: fixed;
-	bottom: 0;
+	bottom: 0.2%;
 	right: 0.5%;
 }
 
@@ -244,14 +244,6 @@ article img
 	bottom: -1%;
 	left: 19%;
 	opacity: 0.8;
-}
-
-#rs
-{  	display: flex;
-	justify-content: center;
-	position: fixed;
-	bottom: 0;
-	right: 0.5%;
 }
 
 footer img

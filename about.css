@@ -135,7 +135,7 @@ nav a:hover
 {  	display: flex;
 	justify-content: center;
 	position: fixed;
-	bottom: 0;
+	bottom: 0.2%;
 	right: 0.5%;
 }
 

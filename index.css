@@ -1,3 +1,19 @@
+media only screen and (max-width: 768px) {
+#header {
+display: none;
+}
+#mobileNavBar {
+display: flex;
+}
+#mobileNavBar a {
+color: white;
+}
+.bannerContainer {
+text-align: center;
+flex-direction: column;
+}
+}
+
 body
 {
 	background-image: url("2.jpg");
@@ -93,7 +109,7 @@ nav a:hover
 	display: flex;
 	justify-content: center;
 	position: fixed;
-	bottom: 0;
+	bottom: 0.3%;
 	left: 0.5%;
     align-items: center;
 	flex-direction: row;
@@ -135,7 +151,7 @@ nav a:hover
 {  	display: flex;
 	justify-content: center;
 	position: fixed;
-	bottom: 0;
+	bottom: 0.2%;
 	right: 0.5%;
 }
 
