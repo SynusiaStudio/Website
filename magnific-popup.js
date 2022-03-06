@@ -33,7 +33,7 @@ $('#4').on('click', function () {
 $('#5').on('click', function () {
     $.magnificPopup.open({
         items: {
-            src: '<iframe width="1024" height="576" margin:auto src="https://www.youtube.com/embed/kQ6z4ryZt6M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            src: '<iframe width="1024" height="576" margin:auto src="https://www.youtube.com/embed/7Ofi9JyuGW8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         }
     });
 });
