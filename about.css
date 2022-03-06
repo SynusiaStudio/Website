@@ -132,3 +132,13 @@ footer img
 	width: 32px;
     height: 32px;
 }
+media only screen and (max-width: 768px) {
+#header {
+display: none;
+}
+#nav {
+display: flex;
+}
+#nav a {
+color: white;
+}
