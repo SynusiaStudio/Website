@@ -135,7 +135,7 @@ footer img
 	width: 32px;
     height: 32px;
 }
-@media (max-width: 768px) {
+@-media (max-width: 768px)
     .quote {
         display: none;
 	}
@@ -152,4 +152,3 @@ footer img
 		width: 80%;
 		height: 64%;
 	}
-}
