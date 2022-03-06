@@ -1,28 +1,25 @@
 body
 {
 	background-image: url("2.jpg");
+	background-size: 1920px 1080px;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0% 90%;
 }
-
 header
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 #logo
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
 #logo img
 {
     width: 200px;
@@ -30,14 +27,12 @@ header
 	margin-left: 70px;
 	margin-top : 20px;
 }
-
 #nav
 {
 display: flex;
 justify-content: space-between;
 flex-direction: row;
 }
-
 nav a
 {
     font-size: 1.35em;
@@ -47,7 +42,6 @@ nav a
     text-decoration: none;
 	margin-right: 70px;
 }
-
 article
 {
 	font-size: 1.08em;
@@ -69,42 +63,35 @@ article
     -o-animation: fadein 1.10s; 
     animation: fadein 1.10s;
 }
-
 @keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 0.80; }
 }
-
 @-moz-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 0.80; }
 }
-
 @-webkit-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 0.80; }
 }
-
 @-ms-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 0.80; }
 }
-
 @-o-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 0.80; }
 }
-
 nav a:hover
 {
     border-bottom: 2px solid;
 }
-
 .quote
 {
 	font-size: 0.90em;
@@ -117,7 +104,6 @@ nav a:hover
 	left: 0%;
 	opacity: 0.8;
 }
-
 .copyright
 {
 	font-size: 0.80em;
@@ -130,7 +116,6 @@ nav a:hover
 	left: 19%;
 	opacity: 0.8;
 }
-
 #rs
 {  	display: flex;
 	justify-content: center;
@@ -138,12 +123,10 @@ nav a:hover
 	bottom: 0.2%;
 	right: 0.5%;
 }
-
 #Instagram
 {
 	padding-right: 5px;
 }
-
 footer img
 {
 	width: 32px;

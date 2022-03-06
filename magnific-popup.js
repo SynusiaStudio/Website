@@ -5,7 +5,6 @@ $('#1').on('click', function () {
         }
     });
 });
-
 $('#2').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -13,7 +12,6 @@ $('#2').on('click', function () {
         }
     });
 });
-
 $('#3').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -21,7 +19,6 @@ $('#3').on('click', function () {
         }
     });
 });
-
 $('#4').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -29,7 +26,6 @@ $('#4').on('click', function () {
         }
     });
 });
-
 $('#5').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -37,7 +33,6 @@ $('#5').on('click', function () {
         }
     });
 });
-
 $('#6').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -45,7 +40,6 @@ $('#6').on('click', function () {
         }
     });
 });
-
 $('#7').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -53,7 +47,6 @@ $('#7').on('click', function () {
         }
     });
 });
-
 $('#8').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -61,7 +54,6 @@ $('#8').on('click', function () {
         }
     });
 });
-
 $('#9').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -69,7 +61,6 @@ $('#9').on('click', function () {
         }
     });
 });
-
 $('#10').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -77,7 +68,6 @@ $('#10').on('click', function () {
         }
     });
 });
-
 $('#11').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -85,7 +75,6 @@ $('#11').on('click', function () {
         }
     });
 });
-
 $('#12').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -93,7 +82,6 @@ $('#12').on('click', function () {
         }
     });
 });
-
 $('#13').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -101,7 +89,6 @@ $('#13').on('click', function () {
         }
     });
 });
-
 $('#14').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -109,7 +96,6 @@ $('#14').on('click', function () {
         }
     });
 });
-
 $('#15').on('click', function () {
     $.magnificPopup.open({
         items: {
@@ -117,7 +103,6 @@ $('#15').on('click', function () {
         }
     });
 });
-
 $('#16').on('click', function () {
     $.magnificPopup.open({
         items: {

@@ -1,7 +1,6 @@
 body
 {
 	background-image: url("2.jpg");
-	background-size: cover;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	background-repeat: no-repeat;
@@ -9,21 +8,18 @@ body
 	background-attachment: fixed;
 	background-position: 0% 90%;
 }
-
 header
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 #logo
 {
     display: flex;
     flex-direction: row;
     align-items: baseline;
 }
-
 #logo img
 {
     width: 200px;
@@ -31,14 +27,12 @@ header
 	margin-left: 70px;
 	margin-top : 20px;
 }
-
 #nav
 {
 display: flex;
 justify-content: space-between;
 flex-direction: row;
 }
-
 nav a
 {
     font-size: 1.35em;
@@ -48,12 +42,10 @@ nav a
     text-decoration: none;
 	margin-right: 70px;
 }
-
 nav a:hover
 {
     border-bottom: 2px solid;
 }
-
 .first
 {
 	font-size: 0.80em;
@@ -75,7 +67,6 @@ nav a:hover
     -o-animation: fadein 1.20s;
     animation: fadein 1.20s;
 }
-
 .second
 {
 	margin: auto;
@@ -92,7 +83,6 @@ nav a:hover
     -o-animation: fadein 1.20s;
     animation: fadein 1.20s;
 }
-
 .third
 {
 	margin: auto;
@@ -109,7 +99,6 @@ nav a:hover
     -o-animation: fadein 1.20s;
     animation: fadein 1.20s;
 }
-
 .fourth
 {
 	margin: auto;
@@ -126,62 +115,52 @@ nav a:hover
     -o-animation: fadein 1.20s;
     animation: fadein 1.20s;
 }
-
 @keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 @-moz-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 @-webkit-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 @-ms-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 @-o-keyframes fadein
 {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 article img
 {
 	width: 160px;
 	height: 160px;
 	padding: 4px;
 }
-
 .container
 {
   position: relative;
   width: 50%;
 }
-
 .img
 {
   display: block;
   width: 100%;
   height: auto;
 }
-
 .container:hover 
 {
     cursor: pointer;
 }
-
 .overlay
 {
   position: absolute;
@@ -196,17 +175,14 @@ article img
   transition: .5s ease;
   background-color: black;
 }
-
 .container:hover .overlay
 {
   opacity: 0.25;
 }
-
 .container a
 {
 	color: transparent;
 }
-
 #rs
 {  	display: flex;
 	justify-content: center;
@@ -214,12 +190,10 @@ article img
 	bottom: 0.2%;
 	right: 0.5%;
 }
-
 #Instagram
 {
 	padding-right: 5px;
 }
-
 .quote
 {
 	font-size: 0.90em;
@@ -232,7 +206,6 @@ article img
 	left: 0%;
 	opacity: 0.8;
 }
-
 .copyright
 {
 	font-size: 0.80em;
@@ -245,7 +218,6 @@ article img
 	left: 19%;
 	opacity: 0.8;
 }
-
 footer img
 {
 	width: 32px;
