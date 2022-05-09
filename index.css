@@ -159,6 +159,9 @@ footer img
     .quote {
         display: none;
 	}
+	.copyright {
+		font-size: 0.70em;
+	}
 	#nav {
 		display: none;
 	}

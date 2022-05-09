@@ -357,6 +357,9 @@ footer img
 	#nav {
 		display: none;
 	}
+	.copyright {
+		font-size: 0.70em;
+	}
 	#logo {
 		margin-left: 4%;
 	}
