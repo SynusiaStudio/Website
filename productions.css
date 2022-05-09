@@ -140,7 +140,7 @@ flex-direction: row;
 	word-wrap: break-word;
 	position: fixed;
 	margin: auto;
-	top: 86%;
+	top: 85%;
 	left: 52%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -382,8 +382,8 @@ footer img
 	}
 	article img
 	{
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	height: 80px;
 	padding: 2px;
 	}
 }
