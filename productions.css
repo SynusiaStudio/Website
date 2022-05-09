@@ -54,7 +54,7 @@ flex-direction: row;
 	flex-direction: row;
 	margin-left: -6%;
 	margin-right: 4%;
-	margin-top: 8%;
+	margin-top: 5%;
 }
 #nav2 a
 { 
@@ -140,8 +140,8 @@ flex-direction: row;
 	word-wrap: break-word;
 	position: fixed;
 	margin: auto;
-	top: 85%;
-	left: 50%;
+	top: 86%;
+	left: 52%;
 	transform: translate(-50%, -50%);
 	display: flex;
 	justify-content: space-between;
@@ -156,7 +156,7 @@ flex-direction: row;
 {
 	margin: auto;
 	position: fixed;
-	top: 28%;
+	top: 30%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -172,7 +172,7 @@ flex-direction: row;
 {
 	margin: auto;
 	position: fixed;
-	top: 40%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -188,7 +188,7 @@ flex-direction: row;
 {
 	margin: auto;
 	position: fixed;
-	top: 52%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -204,39 +204,7 @@ flex-direction: row;
 {
 	margin: auto;
 	position: fixed;
-	top: 64%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	-webkit-animation: fadein 1.20s;
-    -moz-animation: fadein 1.20s;
-    -ms-animation: fadein 1.20s;
-    -o-animation: fadein 1.20s;
-    animation: fadein 1.20s;
-}
-.sixthMOB
-{
-	margin: auto;
-	position: fixed;
-	top: 76%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	-webkit-animation: fadein 1.20s;
-    -moz-animation: fadein 1.20s;
-    -ms-animation: fadein 1.20s;
-    -o-animation: fadein 1.20s;
-    animation: fadein 1.20s;
-}
-.seventhMOB
-{
-	margin: auto;
-	position: fixed;
-	top: 88%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -396,7 +364,7 @@ footer img
 		background-position: 47% 50%;
 	}
 	article {
-		height: 80%;
+		height: auto;
 		width: 80%;
 		font-size: 0.9em;
 	}

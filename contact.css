@@ -172,8 +172,9 @@ footer img
 		background-position: 47% 50%;
 	}
 	article {
-		height: 80%;
+		height: auto;
 		width: 80%;
 		font-size: 0.9em;
+		overflow: scroll;
 	}
 }
