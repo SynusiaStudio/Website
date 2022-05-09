@@ -7,6 +7,7 @@ body
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: 0% 90%;
+	overflow: hidden;
 }
 header
 {
@@ -24,8 +25,8 @@ header
 {
     width: 200px;
     height: 66px;
-	margin-left: 70px;
-	margin-top : 20px;
+	margin-left: 35%;
+	margin-top : 10%;
 }
 #nav
 {
@@ -33,7 +34,7 @@ display: flex;
 justify-content: space-between;
 flex-direction: row;
 }
-nav a
+#nav a
 {
     font-size: 1.35em;
     color: white;
@@ -42,9 +43,26 @@ nav a
     text-decoration: none;
 	margin-right: 70px;
 }
-nav a:hover
+#nav a:hover
 {
     border-bottom: 2px solid;
+}
+#nav2
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-left: -6%;
+	margin-right: 4%;
+	margin-top: 8%;
+}
+#nav2 a
+{ 
+	font-size: 1.1em;
+	color: white;
+	text-shadow: 2px 1px 2px black;
+    padding-bottom: 3px;
+    text-decoration: none;
 }
 .first
 {
@@ -52,7 +70,6 @@ nav a:hover
 	color: white;
 	text-align: center;
 	word-wrap: break-word;
-	
 	position: fixed;
 	margin: auto;
 	top: 70%;
@@ -70,7 +87,7 @@ nav a:hover
 .second
 {
 	margin: auto;
-	position: absolute;
+	position: fixed;
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -86,7 +103,7 @@ nav a:hover
 .third
 {
 	margin: auto;
-	position: absolute;
+	position: fixed;
 	top: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -102,8 +119,124 @@ nav a:hover
 .fourth
 {
 	margin: auto;
-	position: absolute;
+	position: fixed;
 	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.firstMOB
+{
+	font-size: 0.70em;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+	position: fixed;
+	margin: auto;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.secondMOB
+{
+	margin: auto;
+	position: fixed;
+	top: 28%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.thirdMOB
+{
+	margin: auto;
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.fourthMOB
+{
+	margin: auto;
+	position: fixed;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.fifthMOB
+{
+	margin: auto;
+	position: fixed;
+	top: 64%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.sixthMOB
+{
+	margin: auto;
+	position: fixed;
+	top: 76%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	-webkit-animation: fadein 1.20s;
+    -moz-animation: fadein 1.20s;
+    -ms-animation: fadein 1.20s;
+    -o-animation: fadein 1.20s;
+    animation: fadein 1.20s;
+}
+.seventhMOB
+{
+	margin: auto;
+	position: fixed;
+	top: 88%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	display: flex;
@@ -223,8 +356,63 @@ footer img
 	width: 32px;
     height: 32px;
 }
+@media (min-width: 768px) {
+	#nav2 {
+		display: none;
+	}
+	.firstMOB {
+		display: none;
+	}
+	.secondMOB {
+		display: none;
+	}
+	.thirdMOB {
+		display: none;
+	}
+	.fourthMOB {
+		display: none;
+	}
+	.fifthMOB {
+		display: none;
+	}
+	.sixthMOB {
+		display: none;
+	}
+	.seventhMOB {
+		display: none;
+	}
+}
 @media (max-width: 768px) {
-    #quote {
+    .quote {
         display: none;
-    }
+	}
+	#nav {
+		display: none;
+	}
+	#logo {
+		margin-left: 4%;
+	}
+	body {
+		background-position: 47% 50%;
+	}
+	article {
+		height: auto;
+		width: 80%;
+		font-size: 0.9em;
+	}
+	.first {
+		display: none;
+	}
+	.second {
+		display:none;
+	}
+	.third {
+		display: none;
+	}
+	article img
+	{
+	width: 90px;
+	height: 90px;
+	padding: 2px;
+	}
 }
