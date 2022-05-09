@@ -175,5 +175,6 @@ footer img
 		height: auto;
 		width: 80%;
 		font-size: 0.8em;
+		overflow: scroll;
 	}
 }
