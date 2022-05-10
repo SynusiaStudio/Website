@@ -167,6 +167,7 @@ footer img
 	}
 	.copyright {
 		font-size: 0.60em;
+		word-wrap: normal;
 	}
 	#logo {
 		margin-left: 4%;

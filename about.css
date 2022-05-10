@@ -161,6 +161,7 @@ footer img
 	}
 	.copyright {
 		font-size: 0.60em;
+		word-wrap: normal;
 	}
 	#nav {
 		display: none;

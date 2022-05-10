@@ -359,6 +359,7 @@ footer img
 	}
 	.copyright {
 		font-size: 0.60em;
+		word-wrap: normal;
 	}
 	#logo {
 		margin-left: 4%;
@@ -370,7 +371,6 @@ footer img
 		height: auto;
 		width: 80%;
 		font-size: 0.8em;
-		overflow: scroll;
 	}
 	.first {
 		display: none;
@@ -385,6 +385,6 @@ footer img
 	{
 	width: 80px;
 	height: 80px;
-	padding: 2px;
+	padding: 0px;
 	}
 }
