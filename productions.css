@@ -358,7 +358,7 @@ footer img
 		display: none;
 	}
 	.copyright {
-		font-size: 0.70em;
+		font-size: 0.60em;
 	}
 	#logo {
 		margin-left: 4%;
@@ -370,6 +370,7 @@ footer img
 		height: auto;
 		width: 80%;
 		font-size: 0.9em;
+		overflow: scroll;
 	}
 	.first {
 		display: none;

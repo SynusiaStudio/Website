@@ -160,7 +160,7 @@ footer img
         display: none;
 	}
 	.copyright {
-		font-size: 0.70em;
+		font-size: 0.60em;
 	}
 	#nav {
 		display: none;
@@ -172,7 +172,7 @@ footer img
 		background-position: 47% 50%;
 	}
 	article {
-		height: 50%;
+		height: auto;
 		width: 80%;
 		font-size: 0.8em;
 		overflow: scroll;
