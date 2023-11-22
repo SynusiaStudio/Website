@@ -198,8 +198,13 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5rem;
-		line-height: 1.5;
+		line-height: 2;
 		letter-spacing: 0.1rem;
+	}
+	
+	h3 {
+		text-transform: lowercase;
+		font-weight: normal;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -688,10 +693,17 @@ input, select, textarea {
 
 		}
 		
-		@media only screen and (max-width: 600px) {
+		@media only screen and (max-width: 480px) {
 			img {
-				width: 50%; 
-				height: auto;
+				width: 100%; 
+				height: 100%;
+			}
+		}
+		
+		@media only screen and (max-width: 736px) {
+			img {
+				width: 100%; 
+				height: 100%;
 			}
 		}
 
@@ -740,7 +752,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(8, 8, 8, 1);
+			background-color: rgba(10, 10, 10, 1);
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -832,7 +844,7 @@ input, select, textarea {
 		#footer .copyright {
 			letter-spacing: 0.1rem;
 			font-size: 0.4rem;
-			opacity: 0.1;
+			opacity: 0.15;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
