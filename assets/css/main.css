@@ -844,7 +844,7 @@ input, select, textarea {
 		#footer .copyright {
 			letter-spacing: 0.1rem;
 			font-size: 0.4rem;
-			opacity: 0.2;
+			opacity: 0.25;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
